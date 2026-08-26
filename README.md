@@ -15,3 +15,4 @@ An organization-agnostic AI assistant for educational staff.
 
 ```bash
 pip install academic-agentic"# academic_agent_lib" 
+"# trigger workflow" 
