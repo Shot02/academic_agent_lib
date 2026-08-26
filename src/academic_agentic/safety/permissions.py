@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from academic_agent.safety.policy import APPROVAL_REQUIRED, SideEffect
+from academic_agentic.safety.policy import APPROVAL_REQUIRED, SideEffect
 
 @dataclass(frozen=True)
 class PermissionDecision:
