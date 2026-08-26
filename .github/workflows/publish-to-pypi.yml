@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/academic-agent
+      url: https://pypi.org/p/academic-agentic
     permissions:
       id-token: write  # This is crucial for Trusted Publishing 
     steps:

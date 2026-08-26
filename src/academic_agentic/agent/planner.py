@@ -1,5 +1,5 @@
-from academic_agent.agent.state import AgentState
-from academic_agent.llm.structured import AgentPlan, planner_prompt
+from academic_agentic.agent.state import AgentState
+from academic_agentic.llm.structured import AgentPlan, planner_prompt
 
 async def plan_request(state: AgentState, runtime) -> dict:
     history = runtime.memory.recent(state["session_id"])

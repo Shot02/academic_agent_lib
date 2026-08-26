@@ -1,7 +1,7 @@
 from typing import Any
 import httpx
-from academic_agent.config import Settings
-from academic_agent.tools.registry import ToolDefinition
+from academic_agentic.config import Settings
+from academic_agentic.tools.registry import ToolDefinition
 
 class ToolGateway:
     def __init__(self, settings: Settings) -> None:

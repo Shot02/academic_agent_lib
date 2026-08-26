@@ -1,11 +1,11 @@
 import uuid
 from langgraph.graph import END, START, StateGraph
-from academic_agent.agent.observer import observe_results
-from academic_agent.agent.planner import plan_request
-from academic_agent.agent.responder import respond
-from academic_agent.agent.routing import after_observe, after_plan
-from academic_agent.agent.state import AgentState
-from academic_agent.safety.permissions import evaluate_tool_permission
+from academic_agentic.agent.observer import observe_results
+from academic_agentic.agent.planner import plan_request
+from academic_agentic.agent.responder import respond
+from academic_agentic.agent.routing import after_observe, after_plan
+from academic_agentic.agent.state import AgentState
+from academic_agentic.safety.permissions import evaluate_tool_permission
 
 async def execute_tools(state: AgentState, runtime) -> dict:
     observations = list(state.get("observations", []))

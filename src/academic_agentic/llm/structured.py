@@ -1,8 +1,8 @@
 from typing import Any
 from pydantic import BaseModel, Field
 from langchain_openai import ChatOpenAI
-from academic_agent.config import Settings
-from academic_agent.llm.prompts import SYSTEM_PROMPT
+from academic_agentic.config import Settings
+from academic_agentic.llm.prompts import SYSTEM_PROMPT
 
 class ToolRequest(BaseModel):
     tool_name: str

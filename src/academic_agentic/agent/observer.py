@@ -1,5 +1,5 @@
-from academic_agent.agent.state import AgentState
-from academic_agent.llm.structured import ObservationAssessment, observer_prompt
+from academic_agentic.agent.state import AgentState
+from academic_agentic.llm.structured import ObservationAssessment, observer_prompt
 
 async def observe_results(state: AgentState, runtime) -> dict:
     assessment = await runtime.llm.with_structured_output(

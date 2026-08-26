@@ -1,4 +1,4 @@
-from academic_agent.agent.state import AgentState
+from academic_agentic.agent.state import AgentState
 
 def respond(state: AgentState, runtime) -> dict:
     plan = state.get("plan", {})

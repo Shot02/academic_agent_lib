@@ -1,6 +1,6 @@
 from typing import Any
 from pydantic import BaseModel, Field
-from academic_agent.safety.policy import SideEffect
+from academic_agentic.safety.policy import SideEffect
 
 class ToolDefinition(BaseModel):
     name: str = Field(pattern=r"^[a-zA-Z][a-zA-Z0-9_-]{1,80}$")

@@ -1,5 +1,5 @@
 from collections import defaultdict
-from academic_agent.memory.models import MemoryEntry
+from academic_agentic.memory.models import MemoryEntry
 
 class MemoryManager:
     """Small replaceable conversation-memory layer; use a durable store in production."""

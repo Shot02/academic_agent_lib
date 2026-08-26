@@ -1,6 +1,6 @@
 import pytest
 import asyncio
-from academic_agent import AgentRuntime
+from academic_agentic import AgentRuntime
 
 @pytest.fixture
 def runtime():

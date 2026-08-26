@@ -1,11 +1,11 @@
 from typing import Any, Optional
 from langgraph.checkpoint.memory import MemorySaver
-from academic_agent.agent.graph import build_graph
-from academic_agent.config import Settings, get_settings
-from academic_agent.llm.structured import build_llm
-from academic_agent.memory.manager import MemoryManager
-from academic_agent.tools.adapter import ToolGateway
-from academic_agent.tools.registry import ToolRegistry, ToolDefinition
+from academic_agentic.agent.graph import build_graph
+from academic_agentic.config import Settings, get_settings
+from academic_agentic.llm.structured import build_llm
+from academic_agentic.memory.manager import MemoryManager
+from academic_agentic.tools.adapter import ToolGateway
+from academic_agentic.tools.registry import ToolRegistry, ToolDefinition
 
 class AgentRuntime:
     """Main runtime for the academic agent."""

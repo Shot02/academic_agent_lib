@@ -1,5 +1,5 @@
 from typing import Literal
-from academic_agent.agent.state import AgentState
+from academic_agentic.agent.state import AgentState
 
 def after_plan(state: AgentState) -> Literal["execute", "respond"]:
     if state.get("plan", {}).get("needs_clarification"):
