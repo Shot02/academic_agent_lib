@@ -1,0 +1,29 @@
+
+**Save as:** `README.md`
+
+---
+
+### **Create Empty `__init__.py` Files**
+
+Open Notepad and save these as **empty files** (just press space once or save empty):
+
+1. `src\academic_agent\__init__.py`
+2. `src\academic_agent\agent\__init__.py`
+3. `src\academic_agent\api\__init__.py`
+4. `src\academic_agent\llm\__init__.py`
+5. `src\academic_agent\memory\__init__.py`
+6. `src\academic_agent\safety\__init__.py`
+7. `src\academic_agent\tools\__init__.py`
+8. `tests\__init__.py`
+
+**Easier way:** Open Command Prompt in `academic_agent_lib` and run:
+
+```bash
+type nul > src\academic_agent\__init__.py
+type nul > src\academic_agent\agent\__init__.py
+type nul > src\academic_agent\api\__init__.py
+type nul > src\academic_agent\llm\__init__.py
+type nul > src\academic_agent\memory\__init__.py
+type nul > src\academic_agent\safety\__init__.py
+type nul > src\academic_agent\tools\__init__.py
+type nul > tests\__init__.py
